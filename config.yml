@@ -1,0 +1,21 @@
+---
+#############################################################################################
+##                                                                                         ## 
+# Author: Gerardo Ocampos                                                                  ##
+# Release: 2020                                                                            ##
+# Last Modification: Gerardo Ocampos at 15/10/2020                                         ##
+##                                                                                         ##
+#############################################################################################
+
+# Backup Grafana Dashboard via API
+# Doc: https://grafana.com/docs/grafana/latest/http_api/
+
+host: "http://hostname:3000"
+backup_path: "./export"
+
+## List of organizations configured in Grafana
+
+organization:
+  - name: 'Main Org.'
+    key: 'Bearer eyJrIjoiT1paMnVkbFJibHRabmNxTTAwOUoyam9xS1dZZVZRN2UiLCJuIjoiYmFja3VwVXNlciIsImlkIjoxfQ=='
+
